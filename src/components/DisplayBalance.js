@@ -8,7 +8,7 @@ function DisplayBalance({title, value, color="black", size="small"}) {
         {title}:
       </Statistic.Label>
       <Statistic.Value style={{textAlign: "left"}}>
-        {value}
+        ${value}
       </Statistic.Value>
     </Statistic>
   )
